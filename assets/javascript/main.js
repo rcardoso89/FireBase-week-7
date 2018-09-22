@@ -1,5 +1,5 @@
 //creates firebase link
-var trainData = new Firebase("https://first-project-aa6eb.firebaseio.com/");
+var trainData = firebase.database();
 
 //button for adding trains
 $('#submitButton').on('click', function(){
